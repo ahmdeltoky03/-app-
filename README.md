@@ -18,7 +18,7 @@ This is a simple and clean web application to remove image backgrounds using AI,
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/ahmdeltoky03/background_removal_app.git
+git clone https://github.com/ahmdeltoky03/clearcut-app.git
 cd background_removal_app
 ```
 
