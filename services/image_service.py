@@ -14,15 +14,18 @@ def process_and_download_image(uploaded_file):
 
     st.success("✅ Background removed successfully!")
 
-    # Create two columns
-    col1, col2 = st.columns(2)
+    # Show side-by-side images in wider layout
+    col1, col2 = st.columns([1, 1])
 
     with col1:
-        st.image(image, caption="Original Image", use_container_width=True)
+        st.markdown("### Original Image")
+        st.image(image, use_container_width=True)
 
     with col2:
-        st.image(result_image, caption="Background Removed", use_container_width=True)
-
+        st.markdown("### Background Removed")
+        st.image(result_image, use_container_width=True)
+        
+        
     # Prepare download
     buf = io.BytesIO()
     result_image.save(buf, format="PNG")
