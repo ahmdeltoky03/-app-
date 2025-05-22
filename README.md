@@ -1,6 +1,14 @@
 # `Clearcut App`
 
-- This is a simple and clean web application to remove image backgrounds using AI, built with **Streamlit** and powered by **Rembg**.
+- ClearCut is a simple and intuitive web app built with Streamlit that allows users to upload an image and instantly remove its background using AI. It uses the powerful rembg library, which leverages deep learning (U-2-Net) for high-quality background removal.
+summarize
+
+
+---
+
+## 🚀 Demo
+
+Watch the demo video [here](demo/demo.mp4)
 
 ---
 
