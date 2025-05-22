@@ -5,7 +5,11 @@ import io
 import os
 
 def process_and_download_image(uploaded_file):
-    st.image(uploaded_file, caption="Original Image", use_container_width=True)
+    
+    # convert the uploaded file to a PIL Image
+    image = Image.open(uploaded_file)
+    # Display the original image
+    st.image(image, caption="Original Image", use_container_width=True)
 
     with st.spinner("Removing background..."):
         result_image = remove_bg(uploaded_file)
