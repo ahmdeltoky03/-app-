@@ -1,6 +1,6 @@
-# `Background Removal App`
+# `Clearcut App`
 
-This is a simple and clean web application to remove image backgrounds using AI, built with **Streamlit** and powered by **Rembg**.
+- This is a simple and clean web application to remove image backgrounds using AI, built with **Streamlit** and powered by **Rembg**.
 
 ---
 
